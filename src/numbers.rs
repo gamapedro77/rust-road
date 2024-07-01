@@ -1,9 +1,5 @@
-fn main() {
-   representations();
-   range();
-}
 
-fn range() {
+pub fn range() {
     let mut sum = 0;
     for i in -3..2 {
         println!("{}", i);
@@ -18,7 +14,7 @@ fn range() {
 }
 
 
-fn representations() {
+pub fn representations() {
     let _v = 1_024 + 0xff + 0o77 + 0b1111_1111;
     let _x = 1_000.000_1;
 
